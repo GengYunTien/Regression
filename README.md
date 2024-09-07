@@ -41,5 +41,5 @@ pyhon src/preprocessing.py
 ```
 ### 3. Train MLP model
 ```bash
-python src/train.py
+python train.py
 ```
