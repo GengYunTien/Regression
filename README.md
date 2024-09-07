@@ -35,4 +35,4 @@ pyhon src/preprocessing.py
 python train.py
 ```
 ## Prediction result
-![image]()
+![image](https://github.com/GengYunTien/mlpregressor/results/results.png)
