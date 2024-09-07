@@ -77,6 +77,8 @@ for k in range(1, y_pred.shape[1]):
     plt.plot(x, y_pred[:, k], color = 'sandybrown', alpha = 0.6)
 
 plt.title('testing')
+plt.xlabel('Time step')
+ply.ylabel('Current value')
 plt.legend()
 plt.savefig('results', bbox_inches = 'tight')
 
