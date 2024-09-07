@@ -3,13 +3,11 @@ We use conda to build our enviornment. The following will provide step-by-step i
 ## Directory structure
 ```bash
 113061_Source/
-├── environment.yml
 ├── src/
 │   ├── main.py
 │   └── utils.py
-├── README.md
-└── data/
-    └── dataset.csv
+├── environment.yml
+└── README.md
 ```
 ## Installation environment / Execution environment / Package selection
 * Conda version: 23.1.0
