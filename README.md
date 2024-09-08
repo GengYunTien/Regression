@@ -20,10 +20,10 @@ Activate environment to run .py files.
 conda activate 113061_Source
 ```
 ## Execution method
-### 1. Transfer CSV files to longformat
-Convert the CSV files under various resistor and voltage conditions into long format for easier reading.
+### 1. Transfer CSV files to merged dataframe
+Convert the CSV files under various resistor and voltage conditions into merged dataframe for easier reading.
 ```bash
-python src/longformat.py
+python src/concatenation.py
 ```
 ### 2. Prepare training data
 Divide the dataframe under each resistor and voltage condition into the first 50 timesteps and the following 3950 timesteps, while also separating the 10 experiments individually. Store them in a dictionary structure.
