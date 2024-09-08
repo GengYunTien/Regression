@@ -14,7 +14,7 @@ exp = ['y01', 'y02', 'y03', 'y04', 'y05', 'y06', 'y07', 'y08', 'y09', 'y10']
 rve = [[f'{r}', f'{v}', f'{e}'] for r in R for v in V for e in exp]
 seq_x, seq_y = {}, {}
 for i in rve:
-    df = trainingData[(trainingData['odjID'] == int(i[0])) & (trainingData['condID'] == i[1])]
+    df = trainingData[(trainingData['objID'] == int(i[0])) & (trainingData['condID'] == i[1])]
     df = df.loc[:, i[2]].values
     src = df[:50]
     trg = df[50:]
