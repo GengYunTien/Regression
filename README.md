@@ -1,4 +1,4 @@
-# 2024 IMBD 透過對物理量的預測了解物體的品質狀態
+# 透過對物理量的預測了解物體的品質狀態
 We use conda to build our enviornment. The following will provide step-by-step instructions on how to set up the environment and run the code.
 ## Installation environment / Execution environment / Package selection
 * Conda version: 23.1.0
